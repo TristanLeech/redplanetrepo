@@ -192,10 +192,23 @@ fieldset{
 }
 
 .upFlex{
-  padding: 2em;
+  padding-top: 2em;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.upFlex h3{
+  font-family: 'Poppins', light;
+  font-size: 18px;
+  color: aqua;
+}
+
+.upFlex h2{
+  text-align: center;
+  font-family: 'Poppins', bold;
+  font-size: 48px;
+  color: white;
 }
 
 .tripsFlex{
@@ -232,7 +245,7 @@ fieldset{
   padding: 0;
 }
 
-#bookNow button{
+#bookNowButton button{
   cursor: pointer;
   width: 270px;
   height: 70px;
@@ -244,6 +257,83 @@ fieldset{
   border-radius: 12px;
 }
 
-#bookNow button:hover{
+#bookNowButton button:hover{
 background-color: #630000;
 } 
+
+a:link{
+  color:rgb(59, 59, 59);
+}
+
+a:visited {
+  color: rgb(59, 59, 59);
+  background-color: transparent;
+  text-decoration-line: none;
+  font-family: 'Poppins', bold;
+}
+
+.copyFlex{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.footerFlex{
+  padding-top: 3em;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.flFlex{
+  padding: 0;
+  padding-top: 1em;
+  display: flex;
+  flex-direction: column;
+  color: gray;
+}
+
+.linksFlex{
+  font-family: 'Poppins', regular;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+
+}
+
+.linksFlex a{
+  text-decoration: none;
+  color: gray;
+}
+
+.socialsFlex{
+  font-family: 'Poppins', regular;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  padding-left: 3em;
+}
+
+.slinksFlex a{
+  padding-top: 1em;
+  padding-right: 1em;
+}
+
+.legalsFlex{
+  padding-top: 5em;
+  padding-right: 5em;
+  padding-left: 5em;
+  padding-bottom: 2em;
+  display: flex;
+  flex-direction: row;
+  color: gray;
+  align-items: center;
+  justify-content:space-between
+}
+
+.legalsFlex a{
+  padding-right: 2em;
+  color: gray;
+  text-decoration: none;
+}
