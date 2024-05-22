@@ -22,15 +22,22 @@ body{
 }
 
 .flightsImage{
-  padding: 0;
-  margin: 0;
-  border: 0;
   /*background-color: red;*/
   background-image: url(../assets/images/headerbackBack.png);
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+.contactImage{
+  /*background-color: red;*/
+  background-image: url(../assets/images/headerbackBack.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  height: auto;
 }
 
 .topNav{
+  padding-top: 5em;
   width: 80%;
   height: 90px;
   display: flex;
@@ -42,9 +49,14 @@ body{
   border-radius: 30px;
   opacity: 70%;
   margin: 0 4em;
+  border: 3em;
 }
 
 .logo{
+  opacity: 100%;
+}
+
+.search p{
   opacity: 100%;
 }
 
@@ -71,7 +83,15 @@ body{
 
 .headerSection{
   margin-top: 22em;
-  
+}
+
+.contactUs{
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Porter Sans Block';
+  font-size: 48px;
+  color: white;
 }
 
 .headerFlex{
@@ -167,6 +187,37 @@ fieldset{
   align-items: center;
   padding: 4em 4em;
   justify-content: space-between;
+}
+
+.about{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4em 4em;
+  justify-content: space-between;
+}
+
+.aboutFlex{
+  padding-right: 3em;
+}
+
+.aboutFlex h3{
+  color:aqua;
+  font-family: 'Poppins', medium;
+  font-size: 18px;
+}
+
+.aboutFlex h2{
+  color:rgb(29, 0, 55);
+  font-family: 'Poppins', bold;
+  font-size: 40px;
+}
+
+.aboutFlex p{
+  color:gray;
+  font-family: 'Poppins', regular;
+  font-size: 18px;
 }
 
 .shutFlex{
@@ -336,4 +387,30 @@ a:visited {
   padding-right: 2em;
   color: gray;
   text-decoration: none;
+}
+
+.details{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+.map{
+  padding-top: 5em;
+}
+
+.socialsFlexC{
+  font-family: 'Poppins', regular;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  padding-left: 3em;
+}
+
+.socialsFlexC {
+  font-family: 'Poppins', regular;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  padding-left: 3em;
 }
