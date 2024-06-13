@@ -32,7 +32,7 @@ body{
   /*background-color: red;*/
   background-image: url(../assets/images/headerbackBack.png);
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size: cover;
   height: auto;
 }
 
@@ -50,6 +50,7 @@ body{
   opacity: 70%;
   margin: 0 4em;
   border: 3em;
+  margin-top: 1em;
 }
 
 .logo{
@@ -423,6 +424,7 @@ a:visited {
   flex-direction: row;
   background-color: white;
   padding: 3em;
+  justify-content: space-evenly;
 }
 
 .medMap h3{
