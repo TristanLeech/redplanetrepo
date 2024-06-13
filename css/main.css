@@ -53,8 +53,9 @@ body{
   margin-top: 1em;
 }
 
-.logo{
+.logo *{
   opacity: 100%;
+  
 }
 
 .search p{
@@ -469,6 +470,12 @@ a:visited {
   border-radius: 14px;
 }
 
+.bookNowFormContainer{
+  margin-left: 5em;
+  border-radius: 14px;
+  flex-direction: row;
+}
+
 #contact{
   background-image: url(../assets/images/formBack.png);
   background-size: cover;
@@ -530,4 +537,116 @@ a:visited {
   padding: 10px;
   font-size: 18px;
   border-radius: 14px;
+}
+
+.filterBar{
+  background-color: #320051;
+}
+
+.logo input{
+  height: 20px;
+}
+
+.logo input{
+  width: 95%;
+  border: 5px solid White;
+  background-color: white;
+  opacity: 1;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.filterBarLeft{
+  display: flex;
+  flex-direction: row;
+  padding-left: 5em;
+}
+
+.filterBarLeft h3, .filterBarRight h3{
+  font-family: 'Poppins', Thin 100;
+  color: white;
+  font-size: 18px;
+  padding: 15px;
+}
+.filterBarLeft h3, .filterBarRight h3{
+  font-family: 'Poppins', Thin 100;
+  color: white;
+  font-size: 18px;
+  padding: 15px;
+}
+
+.viewButton h3{
+  border-right: 1px solid white;
+}
+
+.filterBar{
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+
+.filterBarRight{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 5em;
+}
+
+.filterBarRight h2{
+  font-family: 'Poppins', Thin 100;
+  opacity: 70%;
+  display: block;
+  background-color: white;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+border-radius: 15px;
+}
+
+.flightFlex{
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5em;
+}
+.flightFlexP{
+  display: flex;
+  background-color:#45016e;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5em;
+}
+
+.infoFlex{
+  padding-left: 3em;
+}
+
+.infoFlex{
+  flex-direction: column;
+}
+
+.infoFlex h2{
+  font-size: 48;
+}
+
+.infoFlex h3{
+  font-size: 18px;
+  color: gray;
+}
+
+.infoFlex p2{
+  font-size: 18px;
+  color: rgb(255, 200, 0);
+  padding-right: 20px;
+}
+
+.infoFlex p3{
+  font-size: 18px;
+  color: gray;
+  border-left: 1px solid gray;
+}
+
+.ticketsMars{
+  background-color: #45016e;
 }

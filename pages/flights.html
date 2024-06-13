@@ -16,7 +16,7 @@
 
 <body>
     <header>
-        <div class="flightsImage">
+        <div class="contactImage">
             <nav>
                 <div class="topNav">
                     <div class="navFlex"><a href="../index.html"><img src="../assets/images/logo.png" width="266px" height="48px"></a></div> 
@@ -26,84 +26,299 @@
                         <a class="active" href="../pages/flights.html">Flights</a>
                         <a href="../pages/contact.html">Contact</a>
                     </div>
-                    <div class="logo"><p><img src="../assets/images/searchBar.png" width="266px" style="padding-right: 10px;"></p></div>
-                </div>
-                    
-                <div class="headerSection">
-                    <div class="headerFlex">
-                        <div class="flexItem">
-                            <h1>BOOK A FLIGHT</h1>
-                            <h2>EXPLORE THE SOLAR SYSTEM</h2>
-                        </div>
+                    <div class="logo">
+                        <p><fieldset>
+                            <input placeholder="Search" type="text" tabindex="1" required>
+                        </fieldset></p>
                     </div>
+                    <div class="cart">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-basket2" viewBox="0 0 16 16">
+                        <path d="M4 10a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0zm3 0a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0zm3 0a1 1 0 1 1 2 0v2a1 1 0 0 1-2 0z"/>
+                        <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-.623l-1.844 6.456a.75.75 0 0 1-.722.544H3.69a.75.75 0 0 1-.722-.544L1.123 8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.163 8l1.714 6h8.246l1.714-6z"/>
+                    </div>
+                </div>
+
+                <div class="contactUs">
+                        <h1>BOOK A FLIGHT</h1>
                 </div>
             </nav>
         </div>
     </header>
 
+    <section class="filterBar">
+        <div class="filterBarLeft">
+            <div><h3><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-sliders2" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M10.5 1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4H1.5a.5.5 0 0 1 0-1H10V1.5a.5.5 0 0 1 .5-.5M12 3.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m-6.5 2A.5.5 0 0 1 6 6v1.5h8.5a.5.5 0 0 1 0 1H6V10a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5M1 8a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2A.5.5 0 0 1 1 8m9.5 2a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V13H1.5a.5.5 0 0 1 0-1H10v-1.5a.5.5 0 0 1 .5-.5m1.5 2.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5"/>
+                </svg>&nbsp;&nbsp;&nbsp; Filter</h3>
+            </div>
+            <div>
+                <h3><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid-fill" viewBox="0 0 16 16">
+                    <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5z"/>
+                  </svg></h3>
+            </div>
+            <div class="viewButton">
+                <h2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-view-list" viewBox="0 0 16 16">
+                    <path d="M3 4.5h10a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2m0 1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1zM1 2a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13A.5.5 0 0 1 1 2m0 12a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13A.5.5 0 0 1 1 14"/>
+                  </svg></h2>
+            </div>
+            <div>
+                <h3>Showing 1-16 of 32 Results</h3>
+            </div>
+        </div>
+        <div class="filterBarRight">
+            <h3>Show</h3> 
+            <div class="showNumber">
+                <h2>6</h2>
+            </div>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sort By</h3>
+            <div class="sortBy">
+                <h2>Default</h2>
+            </div>
+        </div>
+    </section>
+
     <section>
-        <div class="featuredFlex">
-            <img src="assets/images/marsSliderClipped1.png" width="609px" height="649px">
-            <div class="featFlex">
-                <h3>FEATURED TRIP</h3>
-                <H2>THE CLASSIC MARS<br>EXPERIENCE</H2>
+        <div class="flightFlex">
+            <img src="../assets/images/flighhtMars.png">
+            <div class="infoFlex">
+                <H2>The Classic Mars Experience</H2>
+                <h3>R 25,000.00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<s>&nbsp;&nbsp;&nbsp;&nbsp;R50,000.00&nbsp;&nbsp;&nbsp;&nbsp;</s></h3>
+                <p2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16">
+                    <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+                  </svg></p2> <p3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;36 Customer Reviews</p3>
                 <p>Embark on a Mars vacation. Red deserts, ancient<br>relics, and towering canyons await. Enjoy low-gravity<br>hiking, rover trips to Olympus Mons, and stargazing<br>under Phobos and Deimos. Unforgettable adventures<br>beckon on the rust coloured landscapes of the Red<br>Planet.</p>
-                <div class="formContainer">
+                <div class="bookNowFormContainer">
                     <form id="bookNow">
+                        <td colspan="2">  <div class="stepper-input">
+                            <button class="btn btn-left" onclick="decreaseMars();total()">-</button>
+                            <input type="text" value="0" class="input-box" id="ticketsMars" >
+                            <button class="btn btn-right" onclick="increaseMars();total()">+</button>
+                         </div></td>
                         <fieldset>
                             <button name="bookNowButton" type="submit" id="bookNowButton">Book A Trip Now</button>
                         </fieldset>
+                    </form>
                 </div>
+                <hr>
+
+                <div>
+                    <p3>SKU&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  SS001<br>Shuttle&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  The Opulence<br>Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  Mars, Luxury, Sale<br>Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  16 June - 19 July</p3>
+                </div>
+
                 
             </div>
             
         </div>
     </section>
-
     <section>
-        <div class="shuttleFlex">
-            <div class="shutFlex">
-                <h3>OUR SHUTTLES</h3>
-                <H2>Travel In Style With A Variety Of Shuttles</H2>
-                <p>Select from our rang of luxury, commercial, or<br>budget shuttles to fulfil your dream space<br>vacation. Experience unparalleled comfort and<br>convenience as you journey to your planet of<br>choice, ensuring an unforgettable and tailored<br>experience for every traveler.</p>
+        <div class="flightFlexP">
+            <img src="../assets/images/flightNeptune.png">
+            <div class="infoFlex">
+                <H2>Neptune's Cosmic Dive</H2>
+                <h3>R 25,000.00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<s>&nbsp;&nbsp;&nbsp;&nbsp;R50,000.00&nbsp;&nbsp;&nbsp;&nbsp;</s></h3>
+                <p2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16">
+                    <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+                  </svg></p2> <p3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;36 Customer Reviews</p3>
+                <p>Embark on a Mars vacation. Red deserts, ancient<br>relics, and towering canyons await. Enjoy low-gravity<br>hiking, rover trips to Olympus Mons, and stargazing<br>under Phobos and Deimos. Unforgettable adventures<br>beckon on the rust coloured landscapes of the Red<br>Planet.</p>
+                <div class="bookNowFormContainer">
+                    <form id="bookNow">
+                        <td colspan="2">  <div class="stepper-input">
+                            <button class="btn btn-left" onclick="decreaseMars();total()">-</button>
+                            <input type="text" value="0" class="input-box" id="ticketsMars" >
+                            <button class="btn btn-right" onclick="increaseMars();total()">+</button>
+                         </div></td>
+                        <fieldset>
+                            <button name="bookNowButton" type="submit" id="bookNowButton">Book A Trip Now</button>
+                        </fieldset>
+                    </form>
+                </div>
+                <hr>
+
+                <div>
+                    <p3>SKU&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  SS001<br>Shuttle&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  The Opulence<br>Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  Mars, Luxury, Sale<br>Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  16 June - 19 July</p3>
+                </div>
+
+                
             </div>
-            <img src="assets/images/spacSchuttles.png" width="609px" height="477">
+            
         </div>
     </section>
-
     <section>
-        <div class="upcomingFlex">
-            <div class="upFlex">
-                <h3>UPCOMING TRIP SNEAK PEAK</h3>
-                <h2>Take A Look At Some Of Our Upcoming Trips</h2>
-                <div class="tripsFlex">
-                    <div class="tripFlex">
-                        <img src="assets/images/upcomingTrip1.png" width="278" height="278">
-                        <h3>The Classic Mars<br>Experience</h3>
-                        <p>Explore red deserts, ancient relics,<br>low gravity adventures on Mars</p>
-                    </div>
-                    <div class="tripFlex">
-                        <img src="assets/images/upcomingTrip3.png" width="278" height="278">
-                        <h3>Neptune's Cosmic<br>Dive</h3>
-                        <p>Experience Neptune's Mysterious<br>depths in a celestial voyage</p>
-                    </div>
-                    <div class="tripFlex">
-                        <img src="assets/images/upcomingTrip2.png" width="278" height="278">
-                        <h3>Jupiter: The Giant's<br>Journey</h3>
-                        <p>Embark on jupiter and witness the<br>gas giant's majesty</p>
-                    </div>
-                    <div class="tripFlex">
-                        <img src="assets/images/upcomingTrip4.png" width="278" height="278">
-                        <h3>Ring Around A<br>Saturn</h3>
-                        <p>Explore Saturn's rings, moons, and<br>enigmatic beauty on an odyssey</p>
-                    </div>
-                </div>
-                <div class="bookTripNow">
-                    <form id="bookTripNow">
+        <div class="flightFlex">
+            <img src="../assets/images/flightJupiter.png">
+            <div class="infoFlex">
+                <H2>The Giant's Journey</H2>
+                <h3>R 25,000.00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<s>&nbsp;&nbsp;&nbsp;&nbsp;R50,000.00&nbsp;&nbsp;&nbsp;&nbsp;</s></h3>
+                <p2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16">
+                    <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+                  </svg></p2> <p3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;36 Customer Reviews</p3>
+                <p>Embark on a Mars vacation. Red deserts, ancient<br>relics, and towering canyons await. Enjoy low-gravity<br>hiking, rover trips to Olympus Mons, and stargazing<br>under Phobos and Deimos. Unforgettable adventures<br>beckon on the rust coloured landscapes of the Red<br>Planet.</p>
+                <div class="bookNowFormContainer">
+                    <form id="bookNow">
+                        <td colspan="2">  <div class="stepper-input">
+                            <button class="btn btn-left" onclick="decreaseMars();total()">-</button>
+                            <input type="text" value="0" class="input-box" id="ticketsMars" >
+                            <button class="btn btn-right" onclick="increaseMars();total()">+</button>
+                         </div></td>
                         <fieldset>
-                            <button name="bookNowButton" type="submit" id="bookNowButton">Book Now</button>
+                            <button name="bookNowButton" type="submit" id="bookNowButton">Book A Trip Now</button>
                         </fieldset>
+                    </form>
                 </div>
+                <hr>
+
+                <div>
+                    <p3>SKU&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  SS001<br>Shuttle&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  The Opulence<br>Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  Mars, Luxury, Sale<br>Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  16 June - 19 July</p3>
+                </div>
+
+                
+            </div>
+            
+        </div>
+    </section>
+    <section>
+        <div class="flightFlexP">
+            <img src="../assets/images/flightSaturn.png">
+            <div class="infoFlex">
+                <H2>Ring Around a Saturn</H2>
+                <h3>R 25,000.00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<s>&nbsp;&nbsp;&nbsp;&nbsp;R50,000.00&nbsp;&nbsp;&nbsp;&nbsp;</s></h3>
+                <p2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16">
+                    <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+                  </svg></p2> <p3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;36 Customer Reviews</p3>
+                <p>Embark on a Mars vacation. Red deserts, ancient<br>relics, and towering canyons await. Enjoy low-gravity<br>hiking, rover trips to Olympus Mons, and stargazing<br>under Phobos and Deimos. Unforgettable adventures<br>beckon on the rust coloured landscapes of the Red<br>Planet.</p>
+                <div class="bookNowFormContainer">
+                    <form id="bookNow">
+                        <td colspan="2">  <div class="stepper-input">
+                            <button class="btn btn-left" onclick="decreaseMars();total()">-</button>
+                            <input type="text" value="0" class="input-box" id="ticketsMars" >
+                            <button class="btn btn-right" onclick="increaseMars();total()">+</button>
+                         </div></td>
+                        <fieldset>
+                            <button name="bookNowButton" type="submit" id="bookNowButton">Book A Trip Now</button>
+                        </fieldset>
+                    </form>
+                </div>
+                <hr>
+
+                <div>
+                    <p3>SKU&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  SS001<br>Shuttle&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  The Opulence<br>Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  Mars, Luxury, Sale<br>Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  16 June - 19 July</p3>
+                </div>
+
+                
+            </div>
+            
+        </div>
+    </section>
+    <section>
+        <div class="flightFlex">
+            <img src="../assets/images/flightUranus.png">
+            <div class="infoFlex">
+                <H2>Uranus Uncharted</H2>
+                <h3>R 25,000.00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<s>&nbsp;&nbsp;&nbsp;&nbsp;R50,000.00&nbsp;&nbsp;&nbsp;&nbsp;</s></h3>
+                <p2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16">
+                    <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+                  </svg></p2> <p3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;36 Customer Reviews</p3>
+                <p>Embark on a Mars vacation. Red deserts, ancient<br>relics, and towering canyons await. Enjoy low-gravity<br>hiking, rover trips to Olympus Mons, and stargazing<br>under Phobos and Deimos. Unforgettable adventures<br>beckon on the rust coloured landscapes of the Red<br>Planet.</p>
+                <div class="bookNowFormContainer">
+                    <form id="bookNow">
+                        <td colspan="2">  <div class="stepper-input">
+                            <button class="btn btn-left" onclick="decreaseMars();total()">-</button>
+                            <input type="text" value="0" class="input-box" id="ticketsMars" >
+                            <button class="btn btn-right" onclick="increaseMars();total()">+</button>
+                         </div></td>
+                        <fieldset>
+                            <button name="bookNowButton" type="submit" id="bookNowButton">Book A Trip Now</button>
+                        </fieldset>
+                    </form>
+                </div>
+                <hr>
+
+                <div>
+                    <p3>SKU&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  SS001<br>Shuttle&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  The Opulence<br>Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  Mars, Luxury, Sale<br>Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  16 June - 19 July</p3>
+                </div>
+
+                
+            </div>
+            
+        </div>
+    </section>
+    <section>
+        <div class="flightFlexP">
+            <img src="../assets/images/flightMoon.png">
+            <div class="infoFlex">
+                <H2>Moonlight Meander</H2>
+                <h3>R 25,000.00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<s>&nbsp;&nbsp;&nbsp;&nbsp;R50,000.00&nbsp;&nbsp;&nbsp;&nbsp;</s></h3>
+                <p2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16">
+                    <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+                  </svg></p2> <p3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;36 Customer Reviews</p3>
+                <p>Embark on a Mars vacation. Red deserts, ancient<br>relics, and towering canyons await. Enjoy low-gravity<br>hiking, rover trips to Olympus Mons, and stargazing<br>under Phobos and Deimos. Unforgettable adventures<br>beckon on the rust coloured landscapes of the Red<br>Planet.</p>
+                <div class="bookNowFormContainer">
+                    <form id="bookNow">
+                        <td colspan="2">  <div class="stepper-input">
+                            <button class="btn btn-left" onclick="decreaseMars();total()">-</button>
+                            <input type="text" value="0" class="input-box" id="ticketsMars" >
+                            <button class="btn btn-right" onclick="increaseMars();total()">+</button>
+                         </div></td>
+                        <fieldset>
+                            <button name="bookNowButton" type="submit" id="bookNowButton">Book A Trip Now</button>
+                        </fieldset>
+                    </form>
+                </div>
+                <hr>
+
+                <div>
+                    <p3>SKU&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  SS001<br>Shuttle&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  The Opulence<br>Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  Mars, Luxury, Sale<br>Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  16 June - 19 July</p3>
+                </div>
+
+                
             </div>
             
         </div>
