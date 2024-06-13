@@ -200,24 +200,28 @@ fieldset{
 
 .aboutFlex{
   padding-right: 3em;
+  margin: 0;
 }
 
 .aboutFlex h3{
   color:aqua;
   font-family: 'Poppins', medium;
   font-size: 18px;
+  margin: 0;
 }
 
 .aboutFlex h2{
   color:rgb(29, 0, 55);
   font-family: 'Poppins', bold;
   font-size: 40px;
+  margin: 5px;
 }
 
 .aboutFlex p{
   color:gray;
   font-family: 'Poppins', regular;
   font-size: 18px;
+  margin: 0;
 }
 
 .shutFlex{
@@ -366,11 +370,6 @@ a:visited {
   padding-left: 3em;
 }
 
-.slinksFlex a{
-  padding-top: 1em;
-  padding-right: 1em;
-}
-
 .legalsFlex{
   padding-top: 5em;
   padding-right: 5em;
@@ -393,24 +392,110 @@ a:visited {
   display: flex;
   flex-direction: row;
   background-color: white;
+  padding: 3em;
+}
+
+.medMap h3{
+  color:aqua;
+  font-family: 'Poppins', light;
+  font-size: 18px;
+  margin: 0;
+}
+
+.medMap h2{
+  color:rgb(29, 0, 55);
+  font-family: 'Poppins', bold;
+  font-size: 40px;
+  margin: 10px;
+}
+
+.slinksFlex a{
+  padding-top: 2em;
+  padding-right: 1em;
+}
+
+.slinksFlex{
+  padding-top: 5px;
+  padding-bottom: 5em;
 }
 
 .map{
-  padding-top: 5em;
+  width: 590px;
+  height: 534px;
 }
 
-.socialsFlexC{
-  font-family: 'Poppins', regular;
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  padding-left: 3em;
+.map iframe{
+  border-radius: 14px;
+  width: 607px;
+  height: 534px;
 }
 
-.socialsFlexC {
-  font-family: 'Poppins', regular;
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  padding-left: 3em;
+.formContainer{
+
+  height: 900px;
+  margin-left: 5em;
+  border-radius: 14px;
+}
+
+#contact{
+  background-image: url(../assets/images/formBack.png);
+  background-size: cover;
+  border-radius: 14px;
+  padding: 3em;
+  align-content: justify;
+  align-items: center;
+  height: 850px;
+  width: 430px;
+}
+
+#contact h3{
+  color:white;
+  font-family: 'Poppins', Thin 100;
+  font-size: 18px;
+  margin: 20px;
+  padding-top: 20px;
+}
+  
+#contact h2{
+  color: white;
+  font-family: 'Poppins', bold;
+  font-size: 40px;
+  margin: 0;
+}
+
+#contact input, #contact textarea{
+  width: 95%;
+  border: 5px solid #f3f3f3;
+  background-color: #f3f3f3;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+#contact input:hover, #contact textarea:hover{
+  border: 5px solid rgb(167, 0, 0);
+}
+
+#contact input:focus, #contact textarea:focus{
+  background-color: rgb(232, 158, 197);
+}
+
+#contact input{
+  height: 40px;
+}
+
+#contact textarea{
+  height: 80px;
+}
+
+#contact button{
+  font-family: 'Poppins', bold;
+  cursor: pointer;
+  height: 60px;
+  width: 200px;
+  border: none;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 14px;
 }
