@@ -198,6 +198,36 @@ fieldset{
   justify-content: space-between;
 }
 
+.aboutAbout{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4em 4em;
+  justify-content: space-between;
+}
+.aboutAboutFlex p{
+  color:gray;
+  font-family: 'Poppins', regular;
+  font-size: 18px;
+  margin: 0;
+  padding-left: 2em;
+}
+.aboutAboutFlex h3{
+  color:aqua;
+  font-family: 'Poppins', medium;
+  font-size: 18px;
+  margin: 0;
+  padding-left: 2em;
+}
+.aboutAboutFlex h2{
+  color:rgb(29, 0, 55);
+  font-family: 'Poppins', bold;
+  font-size: 40px;
+  margin: 5px;
+  padding-left: 1em;
+}
+
 .aboutFlex{
   padding-right: 3em;
   margin: 0;
